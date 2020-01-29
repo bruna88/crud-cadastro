@@ -20,7 +20,7 @@ include("dbconnect.php"); // caminho do seu arquivo de conexão ao banco de dado
 <input name="email" type="email" required>
 
 <label> TELEFONE </label>
-<input type="text" id="celular" onkeyup="somenteNumeros(this); placeholder="somente números" "name="celular" required><br>
+<input type="text" id="celular" onkeyup="somenteNumeros(this);" placeholder="somente números" name="telefone" required><br>
 <input type="submit"  value="salvar" class="btn btn-primary"/>
 </div>
 <html lang="pt-br">
