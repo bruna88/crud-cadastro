@@ -43,8 +43,9 @@ include("dbconnect.php"); // caminho do seu arquivo de conexão ao banco de dado
 		</script>
 	</head>
 	<body>
-		<h1>Listar Clientes</h1>
-		<table id="tabela" class="display" style="width:100%">
+		<h3>Listar Clientes</h3>
+		<div class="alin">
+		<table id="tabela" class="display" style="width:130%">
 			<thead>
 				<tr>
 					<th>Nome</th>
@@ -52,7 +53,8 @@ include("dbconnect.php"); // caminho do seu arquivo de conexão ao banco de dado
 					<th>Telefone</th>
 				</tr>
 			</thead>
-		</table>		
+		</table>
+		</div>
 	</body>
 </html>
 
